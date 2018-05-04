@@ -22,7 +22,7 @@
 }
 
 /* header - navbar */
-header {
+/*header {
   margin-top: 2%;
 }
 
@@ -64,7 +64,7 @@ header {
     width: 90%;
     background: white;
 }
-
+*/
 #navigation{
  background: black;
  height: 80px;

@@ -3,7 +3,7 @@
 // - Noel Delgado | @pixelia_me
 
 
-var nodes  = document.querySelectorAll('li'),
+var nodes  = document.querySelectorAll('.projets-li'),
     _nodes = [].slice.call(nodes, 0);
 
 var getDirection = function (ev, obj) {

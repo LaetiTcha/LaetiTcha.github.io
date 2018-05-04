@@ -6,6 +6,7 @@
 	<title>Laetitia Pham Van Chien</title>
 
 	<link rel="stylesheet" type="text/css" href="css/walker.css">
+	<link rel="stylesheet" type="text/css" href="css/navigation_laser.css">
 
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -17,9 +18,11 @@
 	<link href="https://fonts.googleapis.com/icon?family=Material+Icons"
       rel="stylesheet">
 
+	
     <link rel="stylesheet" type="text/css" href="css/style.css">
 	<link rel="stylesheet" type="text/css" href="css/home.css">
 
+	
 	<link rel="stylesheet" href="css/animate.css">
 
 	<link rel="stylesheet" type="text/css" href="css/BB8.css">
@@ -36,21 +39,52 @@
 
 	<section id="home">
 		<header>
+			<!-- <nav class="navbar navbar-expand-lg navbar-light">
+
+				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation">
+					<span class="navbar-toggler"></span>
+				</button>
+				
+				
+				<div class="collapse navbar-collapse" id="navigation">				
+					<ul>
+						<li><a href="index.html">Home</a></li>
+						<li><a href="#presentation">A propos</a></li>
+						<li><a href="#projets">Portfolio</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>						
+				</div>
+
+			</nav> -->
 			<div id="navigation">
-				<div class="container d-flex flex-column justify-content-center">
-					<div class="container-fluid">
-						<div class="row">	
-							<nav class="navbar">	
-								<ul>
-									<li><a href="index.html">Home</a></li>
-									<li><a href="#presentation">A propos</a></li>
-									<li><a href="#projets">Portfolio</a></li>
-									<li><a href="">Contact</a></li>
-								</ul>
-							</nav>
-						</div>
-					</div>
-				</div>	
+				<div id="container">
+  					<div id="burger">
+          				<div class="bun top"></div>
+          				<div class="filling"></div>
+          				<div class="bun bottom"></div>
+  					</div>
+				</div>
+
+				<nav>
+				  <ul>
+				    <li class="home">
+				      <a href="index.html">Home</a>
+				    </li>
+				    <li class="green">
+				      <a href="#presentation">A propos</a>
+				    </li>
+				    <li class="red">
+				      <a href="#projets">Portfolio</a>
+				    </li>
+				    <li class="yellow">
+				      <a href="#">Contact</a>
+				    </li>
+				    <li class="purple">
+				      <a href="#">Samuel L. Jackson</a>
+				    </li>
+				  </ul>
+				</nav>
+
 			</div>
 		</header>
 
@@ -72,7 +106,7 @@
 						<li class="content__container__list__item">Code !</li>
 						<li class="content__container__list__item">Design !</li>
 						<li class="content__container__list__item">Graphism !</li>
-						<li class="content__container__list__item">Everybody !</li>
+						<li class="content__container__list__item">Chewie !</li>
 					</ul>
 				</div>
 			</div>
@@ -360,7 +394,7 @@ Je suis donc à la recherche d'un <span class="var-highlight">contrat en alterna
 					<a class='normal' href='#'>
 						<h3><img src="images/php.png" style="width: 50px; height: 30px;"> My Chat Room</h3>
 						<p>Site utilisant une base de donnée Mysql, MVC et POO.</p>
-						<img src="images/My_chat_room.png">
+						<img src="images/my_chat_room/My_chat_room.png">
 						<p><i class="material-icons">&#xE894;</i> <i class="fab fa-php fa-2x"></i>/MVC/Mysql</p>
 						<p><i class="fab fa-html5 fa-lg"></i>/<i class="fab fa-css3-alt fa-lg"></i>/<i class="fas fa-bold fa-lg"></i>ootstrap</p>
 					</a>
@@ -851,12 +885,15 @@ Je suis donc à la recherche d'un <span class="var-highlight">contrat en alterna
 
 	<script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script>
 
+	<script type="text/javascript" src="js/navigation_laser.js"></script>
+
 	<script type="text/javascript" src="js/logo.js"></script>
 	<script type="text/javascript" src="js/navigation.js"></script>
 	<script type="text/javascript" src="js/skills.js"></script>
 	<script type="text/javascript" src="js/particles.js"></script>
 	<script type="text/javascript" src="js/projets.js"></script>
 	<script type="text/javascript" src="js/BB8.js"></script>
+
 
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
