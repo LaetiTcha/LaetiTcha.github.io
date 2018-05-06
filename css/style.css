@@ -994,3 +994,38 @@ h3 {
   color: black;
 }
 
+/** Contact **/
+#contact {
+  height: 100vh;
+}
+
+.contact {
+  padding-top: 10%;
+}
+
+.contact p {
+  color: black;
+  float: left;
+  padding-left: 5%;
+}
+
+.contact a {
+  color: black;
+  text-decoration: none;
+}
+
+.info-contrat-pro {
+  padding-top: 5%;
+}
+
+/** Footer **/
+footer {
+  background: black;
+  height: 50px;
+}
+
+
+.footer p {
+  color: white;
+  padding-top: 1%;
+}
